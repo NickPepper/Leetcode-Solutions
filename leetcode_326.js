@@ -19,7 +19,7 @@ Follow up: Could you do it without using any loop / recursion?
  * Space complexity: O(1) - no additional memory is used
  */
 var isPowerOfThree = function(n) {
-    // lets omit the NaN checking etc - this is just a leetcode task but not the production code
+    // lets omit the NaN checking etc - this is just a LeetCode task but not the production code
     if(n === 0) return false;
     while (n % 3 === 0) n /= 3;
     return n == 1;
@@ -45,7 +45,7 @@ var isPowerOfThree = function(n) {
  * - the string of the regular expression (constant size).
  */
 var isPowerOfThree = function(n) {
-	// lets omit the NaN checking etc - this is just a leetcode task but not the production code
+    // lets omit the NaN checking etc
     return /^10*$/gi.test((n).toString(3));
 };
 
@@ -62,7 +62,7 @@ var isPowerOfThree = function(n) {
  * Space complexity: O(1) - no additional memory is used
  */
 var isPowerOfThree = function(n) {
-	// lets omit the NaN checking etc - this is just a leetcode task but not the production code
+    // lets omit the NaN checking etc
     return (Math.log10(n) / Math.log10(3)) % 1 == 0;
 };
 
@@ -78,7 +78,7 @@ var isPowerOfThree = function(n) {
  * Space complexity: O(1) - no additional memory is used
  */
 var isPowerOfThree = function(n) {
-	// lets omit the NaN checking etc - this is just a leetcode task but not the production code
+    // lets omit the NaN checking etc
     return n > 0 && 1162261467 % n == 0;
 };
 
