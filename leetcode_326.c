@@ -17,7 +17,7 @@ bool isPowerOfThree(int n) {
 
 
 // Standalone variant:
-// gcc -Wall leetcode_326.c -O3 -o leetcode_326
+// gcc -Wall -std=c99 leetcode_326.c -O3 -o leetcode_326
 
 #include <stdio.h>
 

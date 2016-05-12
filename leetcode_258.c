@@ -26,7 +26,7 @@ int addDigits(int num) {
 
 
 // Standalone variant:
-// gcc -Wall leetcode_258.c -O3 -o leetcode_258
+// gcc -Wall -std=c99 leetcode_258.c -O3 -o leetcode_258
 
 #include <stdio.h>
 
