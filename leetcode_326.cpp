@@ -20,7 +20,7 @@ public:
 
 
 // Standalone variant:
-// g++ -Wall leetcode_326.c -O3 -o leetcode_326
+// g++ -Wall leetcode_326.cpp -O3 -o leetcode_326
 
 #include <iostream>
 using namespace std;
