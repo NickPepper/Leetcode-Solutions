@@ -23,19 +23,19 @@ class Solution(object):
         :rtype: int
         """
         while (b != 0):
-        	c = a & b
-        	a = a ^ b
-        	b = c << 1
-    	return a
+            c = a & b
+            a = a ^ b
+            b = c << 1
+        return a
 
-    	"""
-    	WTF? Time Limit Exceeded ??? LOL
-    	"""
+        """
+        WTF? Time Limit Exceeded ??? LOL
+        """
 
         """
         Puthon SUXX with recursion ;)))
         if (b == 0)
             return a
-    	else
-    	    return getSum( a ^ b, (a & b) << 1)
-    	"""
+        else
+            return getSum( a ^ b, (a & b) << 1)
+        """

@@ -17,8 +17,8 @@ Given a = 1 and b = 2, return 3.
 /*
 // LeetCode:
 int getSum(int a, int b) {
-	int c;
-	// Iterate till there is no carry  
+    int c;
+    // Iterate till there is no carry  
     while (b != 0) {
         // carry now contains common set bits of 'a' and 'b'
         c = a & b;
@@ -46,19 +46,19 @@ int getSum(int a, int b) {
 
 int main()
 {
-   	int a, b, c;
-   	printf("Enter the first integer: ");
-   	scanf("%d", &a);
-   	printf("Enter the second integer: ");
-   	scanf("%d", &b);
+    int a, b, c;
+    printf("Enter the first integer: ");
+    scanf("%d", &a);
+    printf("Enter the second integer: ");
+    scanf("%d", &b);
 
-	while (b != 0) {
+    while (b != 0) {
         c = a & b;
         a = a ^ b;
         b = c << 1;
     }
 
-   	printf("Summ is: %d.", a);
-   	printf("\n");
-   	return 0;
+    printf("Summ is: %d.", a);
+    printf("\n");
+    return 0;
 }

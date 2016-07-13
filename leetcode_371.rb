@@ -21,9 +21,9 @@ Given a = 1 and b = 2, return 3.
 def get_sum(a, b)
 =begin
     while (b != 0)
-       	c = a & b
-       	a = a ^ b
-       	b = c << 1
+        c = a & b
+        a = a ^ b
+        b = c << 1
     end
     return a
 =end
