@@ -26,8 +26,8 @@ int hammingWeight(uint32_t n) {
     
     while(n != 0) {
         n = n & (n-1);
-        // use x & (x-1) to determine if an integer is a power of two
-        // every time you perform the operation x & (x-1), a single 1 bit is erased
+        // use n & (n-1) to determine if an integer is a power of two
+        // every time you perform the operation n & (n-1), a single 1 bit is erased
         cnt++;
     }
     
